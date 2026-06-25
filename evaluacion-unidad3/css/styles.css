@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background: #fafafa;
+}
+
+form {
+    background: white;
+    padding: 15px;
+    max-width: 400px;
+    border: 1px solid #ccc;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    display: block;
+    margin-top: 5px;
+}
+
+
+.borde-verde {
+    border: 2px solid green;
+}
+
+.borde-rojo {
+    border: 2px solid red;
+}
+
+
+.tarjeta-nota {
+    background: #eef;
+    padding: 10px;
+    margin-top: 10px;
+    max-width: 400px;
+}

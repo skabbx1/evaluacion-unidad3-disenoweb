@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Bloc de Notas</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <h1>Mi Bloc de Notas Personal</h1>
+
+    <form id="miFormulario">
+        <div>
+            <label>Nombre del Juego:</label>
+            <input type="text" id="juego">
+            <span id="error-juego" style="color:red"></span>
+        </div>
+        <div>
+            <label>Tu Correo:</label>
+            <input type="email" id="correo">
+            <span id="error-correo" style="color:red"></span>
+        </div>
+        <div>
+            <label>Contraseña (Mínimo 5 letras):</label>
+            <input type="password" id="clave">
+            <span id="error-clave" style="color:red"></span>
+        </div>
+        <div>
+            <label>Puntaje (Del 1 al 10):</label>
+            <input type="number" id="puntos">
+            <span id="error-puntos" style="color:red"></span>
+        </div>
+        
+        <button type="submit">Guardar Nota</button>
+    </form>
+
+    <h2>Notas Guardadas:</h2>
+    <div id="listaNotas"></div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
